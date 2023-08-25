@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+   
+}
+
+header{
+    height: 75px;
+    background-color:white;
+    
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+/******************UTILITY CLASS******************/
+.btn{
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+    border-radius: 50px 50px;
+    text-align: center;
+}
+.bg-pink{
+    background-color: rgb(214, 167, 175);
+    color: black;
+    border-radius: 50px 50px;
+    text-align: center;
+    }
+.bg-yellow{
+    background-color: rgb(228, 228, 163);
+    color: black;
+    border-radius:50px 50px ;
+    text-align: center;
+}   
+.bg-green{
+    background-color: rgb(60, 199, 60);
+    color:white;
+    border-radius: 50px 50px;
+    text-align: center;
+    position: relative; 
+    z-index: 2;
+    
+}
+.bg-lgreen{
+    background-color: rgb(131, 168, 131);
+    color:white;
+    border-radius: 50px 50px;
+    text-align: center;
+    margin-left: -50px;
+
+
+}
+/***********************logo************************/
+.w3schoollogo{
+    width: 45px;
+    padding:2px 8px;
+}
+.w3schoollogo img{
+    width: 100%;
+}
+
+/*********head left***********************************/
+.header-left{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+    ;
+}
+.header-left a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    font-size:18px ;
+    font-weight:800px;
+    color: black;
+    text-decoration: none;
+    
+
+}
+.header-left a:hover{
+    background-color:green;
+   
+
+}
+.header-left a:first-child{
+    padding: 0;
+}
+.header-left a:first-child:hover{
+    background-color: transparent;
+    
+}
+.fa-solid{
+    padding: 0px 3px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+    gap:18px;
+    position: relative;
+}
+.header-right a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+
+}
+.header-right a:last-child{
+    padding: 10px 45px ;
+}
+/***************BOTTEM LEFT *********************/
+.bottom-left{
+   background-color: rgb(42, 41, 41);
+   height: 40px;
+}
+.bl{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size:medium;
+    padding: 1px 22px;
+}
+.bottom-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+    gap:18px;
+   
+}
+.bottom-left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
